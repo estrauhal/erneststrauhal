@@ -2,6 +2,7 @@ body{
 	margin-top: 100px;
 	margin-bottom: 100px;
 	font-family: monospace;
+	/*actual fonts are for fucking losers*/
 }
 
 h1{
@@ -20,6 +21,7 @@ p{
 a{ 
 	text-decoration: none;
 	text-align: center
+	color: #00f;
 }
 
 a:hover {
@@ -66,8 +68,10 @@ img {
 
 	#contact {
 		position: absolute;
-		top: 40vh;
-		left: 0vw;
+		top: 1vh;
+		left: 1vw;
+		height: 80vh;
+		width: 80vw;
 		white-space: nowrap;
 		padding: 15px 30px 15px 30px;
 		background-color: white;
