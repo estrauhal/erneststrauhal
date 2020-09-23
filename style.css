@@ -68,12 +68,12 @@ img {
 
 	#contact {
 		position: absolute;
-		top: 1vh;
+		top: 25vh;
 		left: 1vw;
-		height: 80vh;
+		/*height: 40vh;*/
 		width: 80vw;
 		white-space: nowrap;
-		padding: 15px 30px 15px 30px;
+		padding: 50px 30px 60px 30px;
 		background-color: white;
 		outline-style: solid;
 		outline-width: 0.1px;
