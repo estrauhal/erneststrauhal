@@ -66,6 +66,10 @@ img {
 		max-width: 75%;
 	}
 
+	p {
+		font-size: 10pt;
+	}
+
 	#contact {
 		position: absolute;
 		top: 25vh;
