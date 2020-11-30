@@ -1,8 +1,8 @@
-function myFunction() {
+function contact() {
 	document.getElementById("contact").style.display = "none";
 }
 
-function myFunction() {
+function contact() {
 	var x = document.getElementById("contact");
 	if (x.style.display == "none") {
 		x.style.display = "block";

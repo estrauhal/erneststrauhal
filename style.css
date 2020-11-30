@@ -1,19 +1,19 @@
 body{
 	margin-top: 100px;
 	margin-bottom: 100px;
-	font-family: monospace;
-	/*actual fonts are for fucking losers*/
+	font-family: times new roman;
+	/*fuck your helvetica*/
 }
 
 h1{
 	font-weight: 200;
-	font-size: 18pt;
-	text-align: center
+	font-size: 21pt;
+	text-align: center;
 }
 
 p{
 	line-height: 0.25;
-	font-size: 12pt;
+	font-size: 14pt;
 	text-decoration: none;
 	text-align: center
 }
@@ -74,7 +74,6 @@ img {
 		position: absolute;
 		top: 25vh;
 		left: 1vw;
-		/*height: 40vh;*/
 		width: 80vw;
 		white-space: nowrap;
 		padding: 50px 30px 60px 30px;
