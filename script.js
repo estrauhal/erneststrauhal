@@ -1,5 +1,15 @@
-function contact() {
+function hide() {
+	document.getElementById("about").style.display = "none";
 	document.getElementById("contact").style.display = "none";
+}
+
+function about() {
+	var x = document.getElementById("about");
+	if (x.style.display == "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
 }
 
 function contact() {
@@ -10,6 +20,8 @@ function contact() {
 		x.style.display = "none";
 	}
 }
+
+dragElement(document.getElementById("about"));
 
 dragElement(document.getElementById("contact"));
 

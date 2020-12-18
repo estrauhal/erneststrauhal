@@ -34,19 +34,39 @@ a:visited {
 }
 
 img {
+	width: 50vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*max-width: 50%;*/
+}
+
+#ernest img{
 	margin-top: 100px;
-	width: 400px;
+	width: 50vh;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 50%;
 }
 
-#contact {
+#about {
 	cursor: move;
 	position: absolute;
 	top: 20vh;
 	left: 10vw;
+	white-space: nowrap;
+	padding: 50px 100px 50px 100px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 0.1px;
+}
+
+#contact {
+	cursor: move;
+	position: absolute;
+	top: 40vh;
+	left: 25vw;
 	white-space: nowrap;
 	padding: 50px 100px 50px 100px;
 	background-color: white;
@@ -70,6 +90,18 @@ img {
 		font-size: 10pt;
 	}
 
+	#about {
+		position: absolute;
+		top: 10vh;
+		left: 1vw;
+		width: 80vw;
+		white-space: nowrap;
+		padding: 50px 30px 60px 30px;
+		background-color: white;
+		outline-style: solid;
+		outline-width: 0.1px;
+	}
+
 	#contact {
 		position: absolute;
 		top: 25vh;
@@ -81,4 +113,5 @@ img {
 		outline-style: solid;
 		outline-width: 0.1px;
 	}
+
 }
