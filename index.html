@@ -15,6 +15,14 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 
+	    <style>
+
+    	#multiples {
+  background-image: url(assets/layer2.png), url(assets/layer1.png);
+	}
+
+</style>
+
 </head>
 
 <body onload="hide()">
@@ -23,7 +31,9 @@
 
 	<p>許志仁</p>
 
-	<div id="ernest"><img src="multiples.png"></div>
+	<div class="parallax" id="multiples"></div>
+
+	<!-- <div id="ernest"><img src="multiples.png"></div> -->
 
 	<div id="about">
 			<p>Ernest Strauhal b. 2000 San Francisco</a></p><br>
@@ -47,7 +57,11 @@
 		<a onclick="contact()">contact</a> &nbsp;&nbsp;&nbsp;
 		<a href="https://studiostrauhal.com">studio</a>
 	</p></div>
+
+	    <script src="script.js" defer></script>
+
+
 	
 </body>
-<script src="script.js"></script>
+<script src="script_parallax.js"></script>
 </html>
