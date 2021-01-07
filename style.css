@@ -2,6 +2,8 @@ body{
 	margin-top: 18vh;
 	margin-bottom: 150px;
 	font-family: times new roman;
+	background-color: #f00;
+	color: white;
 	/*fuck your helvetica*/
 }
 
@@ -14,7 +16,7 @@ h1{
 
 p{
 	line-height: 0.25;
-	font-size: 14pt;
+	font-size: 16pt;
 	text-decoration: none;
 	text-align: center
 }
@@ -43,7 +45,7 @@ img {
 
 #ernest img{
 	margin-top: 100px;
-	width: 50vh;
+	width: 70vh;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,7 +58,7 @@ img {
 	left: 10vw;
 	white-space: nowrap;
 	padding: 50px 100px 50px 100px;
-	background-color: white;
+	background-color: red;
 	outline-style: solid;
 	outline-width: 0.1px;
 }
@@ -68,7 +70,7 @@ img {
 	left: 25vw;
 	white-space: nowrap;
 	padding: 50px 100px 50px 100px;
-	background-color: white;
+	background-color: red;
 	outline-style: solid;
 	outline-width: 0.1px;
 }
