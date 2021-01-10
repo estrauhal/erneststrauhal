@@ -1,12 +1,9 @@
 function hide() {
 	document.getElementById("about").style.display = "none";
-}
-
-function hide() {
 	document.getElementById("contact").style.display = "none";
 }
 
-function hide() {
+function about() {
 	var x = document.getElementById("about");
 	if (x.style.display == "none") {
 		x.style.display = "block";
@@ -15,7 +12,7 @@ function hide() {
 	}
 }
 
-function hide() {
+function contact() {
 	var x = document.getElementById("contact");
 	if (x.style.display == "none") {
 		x.style.display = "block";
