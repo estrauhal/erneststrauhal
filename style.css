@@ -65,6 +65,7 @@ img {
 }
 
 #about {
+	display: none;
 	cursor: move;
 	position: absolute;
 	top: 20vh;
@@ -77,6 +78,7 @@ img {
 }
 
 #contact {
+	display: none;
 	cursor: move;
 	position: absolute;
 	top: 40vh;

@@ -1,9 +1,22 @@
-// function about() {
-// 	document.getElementById("about").style.display = "none";
-// }
+function hide() {
+	document.getElementById("about").style.display = "none";
+}
 
-function about() {
+function hide() {
+	document.getElementById("contact").style.display = "none";
+}
+
+function hide() {
 	var x = document.getElementById("about");
+	if (x.style.display == "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+
+function hide() {
+	var x = document.getElementById("contact");
 	if (x.style.display == "none") {
 		x.style.display = "block";
 	} else {
