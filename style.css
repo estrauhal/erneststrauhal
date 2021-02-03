@@ -2,22 +2,21 @@ body{
 	margin-top: 18vh;
 	margin-bottom: 150px;
 	font-family: times new roman;
-	background-color: #f00;
-	color: white;
+	color: black;
 	overflow-x: hidden;
 	/*fuck your helvetica*/
 }
 
 h1{
 	font-weight: 200;
-	font-size: 36pt;
+	font-size: 24pt;
 	letter-spacing: -1pt;
 	text-align: center;
 }
 
 p{
 	line-height: 0.25;
-	font-size: 16pt;
+	font-size: 14pt;
 	text-decoration: none;
 	text-align: center
 }
@@ -37,16 +36,6 @@ a:visited {
 	color: #00f;
 }
 
-.parallax {
-	width: 50vw;
-	height: 100vh;
-	display: block;
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10vh;
-}
-
 img {
 	width: 50vh;
 	display: block;
@@ -54,11 +43,8 @@ img {
 	margin-right: auto;
 }
 
-#ernest img{
-	visibility: hidden;
-	margin-top: -100vh;
-	margin-bottom: -10vh;
-	width: 70vh;
+#ernest img {
+	margin-top: 10vh;	
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -71,7 +57,7 @@ img {
 	left: 10vw;
 	white-space: nowrap;
 	padding: 50px 100px 50px 100px;
-	background-color: red;
+	background-color: white;
 	outline-style: solid;
 	outline-width: 0.1px;
 }
@@ -83,7 +69,7 @@ img {
 	left: 25vw;
 	white-space: nowrap;
 	padding: 50px 100px 50px 100px;
-	background-color: red;
+	background-color: white;
 	outline-style: solid;
 	outline-width: 0.1px;
 }
@@ -98,14 +84,6 @@ img {
 @media screen and (max-width: 600px) {
 	img {
 		max-width: 75%;
-	}
-
-	.parallax {
-		visibility: hidden;
-	}
-	
-	#ernest img {
-		visibility: visible;
 	}
 
 	#about {
@@ -125,5 +103,4 @@ img {
 		width: 80vw;
 		padding: 50px 30px 60px 30px;
 	}
-
 }
